@@ -1,0 +1,22 @@
+.container_form_com {
+  height: 460px;
+  width: 600px;
+  border: 2px solid #919191;
+  margin-left: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.bottom_but {
+  display: inline-block;
+  margin-top: 70px;
+}
+
+#return_but {
+  margin-left: 15px;
+}
+
+#sub_but_com {
+  margin-left: 405px;
+}
