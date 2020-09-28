@@ -1,4 +1,4 @@
-<?php require_once("head.inc.php") ?>
+<?php require_once("head_form_commercant.inc.php") ?>
 
 <?php 
     if($_POST)
@@ -22,7 +22,7 @@
     }
 ?>
 
-<main>
+<main class="page">
     <form method="POST">
         <div class="container_form_com">
             <div class="form-group">
