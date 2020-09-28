@@ -1,0 +1,63 @@
+body {
+    
+}
+
+.imageContainer {
+    display: flex;
+}
+
+.bigImage {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.littleImage {
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.littleImage1 {
+    margin-bottom: 40px;
+}
+
+.littleImage img {
+    margin-right: 20px;
+}
+
+.advertName {
+    margin-top: 50px;
+}
+
+.advertDesc {
+    margin-top: 50px;
+}
+
+.advertLocalisation {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.advertComment {
+    margin-top: 100px;
+}
+
+.inlineTitleButton {
+    display: flex;
+}
+
+#commentBtn {
+    margin-left: 50px;
+}
+
+#allComment {
+    margin-top: 50px;
+}
+
+.contactAdvertiser {
+    margin-top: 100px;
+}
+
+#contactAdvertiserBtn {
+    margin-bottom: 20px;
+}
+
