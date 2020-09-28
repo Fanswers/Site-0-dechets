@@ -6,7 +6,7 @@
         // Get image name
         $image = $_FILES['image']['name'];
 
-        executeRequete("INSERT INTO ?????? (commerce_name, commerce_adresse, commerce_information, image) VALUES ('$_POST[commerce_name]', '$_POST[commerce_adresse]', '$_POST[commerce_information]', '$id_user', '$image' )");
+        executeRequete("INSERT INTO commerce (commerce_name, commerce_adresse, commerce_numero, commerce_mail, commerce_information, image) VALUES ('$_POST[nom_commerce]', '$_POST[rue]', '$_POST[telephone]', '$_POST[email]', '$id_user', '$image' )");
 
 
 
@@ -32,6 +32,14 @@
             <div class="form-group">
                 <label for="exampleInputEmail1">Adresse du commerce</label>
                 <input type="email" class="form-control" id="commerce_adresse" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Numéro de téléphone</label>
+                <input type="password" class="form-control" id="commerce_numero">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Adresse e-mail</label>
+                <input type="password" class="form-control" id="commerce_mail">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Information concernant le commerce</label>
