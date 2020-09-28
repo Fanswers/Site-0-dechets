@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : lun. 28 sep. 2020 à 09:36
+-- Généré le : lun. 28 sep. 2020 à 10:13
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP : 7.4.4
 
@@ -44,6 +44,7 @@ CREATE TABLE `actualites` (
 CREATE TABLE `commerce` (
   `id_commerce` int(100) NOT NULL,
   `id_utilisateur` int(100) NOT NULL,
+  `id_img` int(11) NOT NULL,
   `proprietaire` varchar(40) NOT NULL,
   `nom_commerce` varchar(40) DEFAULT NULL,
   `region` varchar(40) NOT NULL DEFAULT 'Région',
@@ -86,12 +87,11 @@ CREATE TABLE `utilisateurs` (
   `prenom4` varchar(40) DEFAULT NULL,
   `prenom5` varchar(40) DEFAULT NULL,
   `typecompte` int(1) NOT NULL DEFAULT 0 COMMENT '0 pour utilisateur, 1 pour commerçant et 2 pour admin',
-  `telephone` int(10) DEFAULT NULL,
-  `email` varchar(20) DEFAULT NULL,
-  `adresse` varchar(150) NOT NULL DEFAULT 'Adresse',
+  `telephone` varchar(10) DEFAULT NULL,
+  `email` varchar(300) DEFAULT NULL,
+  `adresse` text NOT NULL DEFAULT 'Adresse',
   `nom_commerce` varchar(40) NOT NULL DEFAULT 'Nom de commerce',
-  `mdp` varchar(30) NOT NULL DEFAULT 'Example: !Azerty123',
-  `pfp` varchar(40) DEFAULT NULL COMMENT 'lien vers le storage de l''image.'
+  `mdp` varchar(30) NOT NULL DEFAULT 'Example: !Azerty123'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
