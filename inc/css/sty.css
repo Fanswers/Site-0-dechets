@@ -1,0 +1,47 @@
+header {
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+
+}
+ul {
+	list-style: none;
+	display: flex;
+	padding: 0px;
+}
+ul li {
+	margin: 0 20px;
+}
+ul li a {
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+
+footer {
+    display: flex;
+	height: 160px;
+	background-color: blue;
+	color: white;
+}
+
+.icon {
+	display: flex;
+}
+
+.details{
+	display: flex;
+	position: relative;
+	font-size: 65px;
+	margin-left: -150px;	
+}
+.details ul li a {
+	display: inline-flex;
+	position: relative;
+	color: cornsilk;
+}
