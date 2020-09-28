@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : lun. 28 sep. 2020 à 10:13
+-- Généré le : lun. 28 sep. 2020 à 10:18
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP : 7.4.4
 
@@ -67,7 +67,7 @@ CREATE TABLE `images` (
   `image` text NOT NULL,
   `id_utilisateur` text NOT NULL,
   `id_commerce` text NOT NULL,
-  `id_actualite` text NOT NULL
+  `id_actu` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
